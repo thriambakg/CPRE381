@@ -1,0 +1,294 @@
+m255
+K4
+z2
+!s11e vcom 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/CPRE381/Lab01/MUX
+T_opt
+!s110 1613883250
+VF9f1X0I`cMMFD;B?2zQf[0
+04 10 5 work tb_flowmux mixed 1
+=1-1866da19cb55-6031e771-35d-500
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.2;71
+T_opt1
+!s110 1613882789
+VZ;Xn`S<z`R3CV]<cCV4TF3
+Z4 04 6 5 work tb_mux mixed 1
+=1-e454e85ba862-6031e5a4-304-2c7c
+o-quiet -auto_acc_if_foreign -work work
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1613883221
+VVVaUoTIL^bMzDV1VRj_nH1
+R4
+=1-1866da19cb55-6031e754-2d5-2710
+R1
+R2
+n@_opt2
+R3
+R0
+Eandgate
+Z5 w1613864934
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z8 8and.vhd
+Z9 Fand.vhd
+l0
+L4 1
+V[:<IgO^lKMY]0NNR]P>9W0
+!s100 CL;Vn8?f4bz1AN;cc?SVW1
+Z10 OL;C;2020.2;71
+33
+Z11 !s110 1613883202
+!i10b 1
+Z12 !s108 1613883202.000000
+Z13 !s90 -reportprogress|300|-2008|-work|work|Mux.vhd|and.vhd|flowMux.vhd|or.vhd|tb_flowMux.vhd|tb_mux.vhd|
+Z14 !s107 tb_mux.vhd|tb_flowMux.vhd|or.vhd|flowMux.vhd|and.vhd|Mux.vhd|
+!i113 0
+Z15 o-2008 -work work
+Z16 tExplicit 1 CvgOpt 0
+Abehavior
+R6
+R7
+DEx4 work 7 andgate 0 22 [:<IgO^lKMY]0NNR]P>9W0
+!i122 1
+l13
+Z17 L12 7
+VGN6:R<EeYPB3<1DORambT0
+!s100 ^X@i:3znlPUX31Je078>A1
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eflowmux
+Z18 w1613882026
+R6
+R7
+!i122 1
+R0
+Z19 8flowMux.vhd
+Z20 FflowMux.vhd
+l0
+L4 1
+V8ak<?J39Yf_GF9:8Ko;eC3
+!s100 8J8TUmZkMk853_JRa;b_a0
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Adataflow
+R6
+R7
+DEx4 work 7 flowmux 0 22 8ak<?J39Yf_GF9:8Ko;eC3
+!i122 1
+l14
+L13 9
+V?_@cjBTVTWfEGR]mOgYZ60
+!s100 SQ63XlDMH5^QkO`UMV[hH3
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Emux
+Z21 w1613865168
+R6
+R7
+!i122 1
+R0
+Z22 8Mux.vhd
+Z23 FMux.vhd
+l0
+L4 1
+VVe;V^mSe2MhMjZHQKS26m3
+!s100 _>e55J:0S;WkL2Sd6B3<P0
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Abehavior
+R6
+R7
+DEx4 work 3 mux 0 22 Ve;V^mSe2MhMjZHQKS26m3
+!i122 1
+l14
+L13 7
+Vb>:IRk]B]zCHW7B^U`Hg:2
+!s100 0cVbEdgn62:n1Yh7Ieol<1
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eorgate
+Z24 w1613864931
+R6
+R7
+!i122 1
+R0
+Z25 8or.vhd
+Z26 For.vhd
+l0
+L4 1
+Ve<ilCX]Ez=K=ZzLN59B`73
+!s100 Pz6=Y0FhA^0oPz[ic6C;32
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Abehavior
+R6
+R7
+DEx4 work 6 orgate 0 22 e<ilCX]Ez=K=ZzLN59B`73
+!i122 1
+l13
+R17
+VRIOE=_Y0QJ`In]9LE@^M[2
+!s100 0cOO98n^[^[=N<ai6DZDD3
+R10
+33
+Z27 !s110 1613883203
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Etb_flowmux
+Z28 w1613882189
+Z29 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z30 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R6
+R7
+!i122 1
+R0
+Z31 8tb_flowMux.vhd
+Z32 Ftb_flowMux.vhd
+l0
+Z33 L22 1
+VeZ56c;XPbGHRFMWd?Fa;K1
+!s100 ;ek9:cSXgB9EHWV^DKlGG1
+R10
+33
+R27
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Amixed
+R29
+R30
+R6
+R7
+DEx4 work 10 tb_flowmux 0 22 eZ56c;XPbGHRFMWd?Fa;K1
+!i122 1
+l54
+Z34 L28 116
+VVUaD:^6`XGloh=MQP<<ZJ2
+!s100 _AMzW<i^RXU9Y9j7Z=nb[1
+R10
+33
+R27
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Etb_mux
+Z35 w1613869175
+R29
+R30
+R6
+R7
+!i122 1
+R0
+Z36 8tb_mux.vhd
+Z37 Ftb_mux.vhd
+l0
+R33
+V?Pa@R:XYk6KTWAna5Fkm[3
+!s100 9b_8WTIKg<LiOlk4zoge[1
+R10
+33
+R27
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Amixed
+R29
+R30
+R6
+R7
+DEx4 work 6 tb_mux 0 22 ?Pa@R:XYk6KTWAna5Fkm[3
+!i122 1
+l54
+R34
+Vhc?lDO@fKYQ8XX9VgcaS81
+!s100 1[T];I70o<VL;NY5>cAhO0
+R10
+33
+R27
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16

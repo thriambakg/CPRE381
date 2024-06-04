@@ -1,0 +1,10 @@
+The design loads a weight value. Once a weight is loaded, each cycle loads a pair of inputs to be applied. The first input is multiplied by the weight and is added to the second input. The result of this operation is the weight for the next cycle.
+
+Testing Goals:
+Case1: Initialize weight
+	- Set iW to a value of 10 (decimal) and set ildW to 1. Set before the posotive edge of the clock and held until after the next posotive edge
+	- Outputs: weight internal register output should take on the value of 10 (decimal) after the positive edge of clock
+	
+Case2: Perform single MAC operation
+	- With the result of case 1 working, set the activiation input to 3 and the partial sum input to 25. make sure no weigh is loaded ildW = 0.
+	Outputs: in a future cycle, my activation output will be 3 and the partial sum output (oY) will be 10*3 + 25 = 55

@@ -1,0 +1,491 @@
+m255
+K4
+z2
+!s11e vcom 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/CPRE381/Lab2/MyFirstMipsDataPath
+T_opt
+!s110 1619911878
+VOgVX<mE9hd5F2lIT76zna1
+04 16 9 work n_bit_full_adder structure 1
+=1-e454e8562062-608de4c5-352-33ac
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.2;71
+R0
+T_opt1
+!s110 1619912649
+VN<8`ZU<XRT:P^d1ZdP9R43
+04 7 9 work add_sub structure 1
+=1-e454e8562062-608de7c9-35-3018
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1619915826
+V6ZK2@G?a;E<e_8WUTaz^?2
+04 9 9 work mips_proc structure 1
+=1-e454e8562062-608df431-25b-34ec
+R1
+R2
+n@_opt2
+R3
+Eadd_sub
+Z4 w1619907552
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 5
+R0
+Z7 8U:/CPRE381/Lab2/MyFirstMipsDataPath/add_sub.vhd
+Z8 FU:/CPRE381/Lab2/MyFirstMipsDataPath/add_sub.vhd
+l0
+L4 1
+V]77[8jj3BXCS1?[lZBS<_1
+!s100 g3Uji]PWi6b1DPmciTmei3
+Z9 OL;C;2020.2;71
+32
+Z10 !s110 1619909371
+!i10b 1
+Z11 !s108 1619909371.000000
+Z12 !s90 -reportprogress|300|-work|work|U:/CPRE381/Lab2/MyFirstMipsDataPath/add_sub.vhd|
+Z13 !s107 U:/CPRE381/Lab2/MyFirstMipsDataPath/add_sub.vhd|
+!i113 0
+Z14 o-work work
+Z15 tExplicit 1 CvgOpt 0
+Astructure
+R5
+R6
+DEx4 work 7 add_sub 0 22 ]77[8jj3BXCS1?[lZBS<_1
+!i122 5
+l36
+L13 49
+Vm;RZ[;LLfTTEbJ>A6:3182
+!s100 cUb]2D@>71G9@If7C;=k60
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eandg2
+Z16 w1619909272
+R5
+R6
+!i122 6
+R0
+Z17 8U:/CPRE381/Lab2/MyFirstMipsDataPath/andg2.vhd
+Z18 FU:/CPRE381/Lab2/MyFirstMipsDataPath/andg2.vhd
+l0
+L6 1
+VS7LH7T^ZFZEo_EUo`nb=o3
+!s100 ^UP_a<bCDfoS8@oCDZZXN0
+R9
+32
+R10
+!i10b 1
+R11
+Z19 !s90 -reportprogress|300|-work|work|U:/CPRE381/Lab2/MyFirstMipsDataPath/andg2.vhd|
+Z20 !s107 U:/CPRE381/Lab2/MyFirstMipsDataPath/andg2.vhd|
+!i113 0
+R14
+R15
+Adataflow
+R5
+R6
+DEx4 work 5 andg2 0 22 S7LH7T^ZFZEo_EUo`nb=o3
+!i122 6
+l15
+Z21 L14 6
+V=7aO>C]_j`i7bN6a]PjOF0
+!s100 XQ1QabAH]FTo>K3f0Gc9[2
+R9
+32
+R10
+!i10b 1
+R11
+R19
+R20
+!i113 0
+R14
+R15
+Ecomplementer
+Z22 w1619908533
+R5
+R6
+!i122 7
+R0
+Z23 8U:/CPRE381/Lab2/MyFirstMipsDataPath/complementer.vhd
+Z24 FU:/CPRE381/Lab2/MyFirstMipsDataPath/complementer.vhd
+l0
+L4 1
+V^`0hI2L6cz2bfL_HAUlU;2
+!s100 `NAlzeVSb3Ig8_efhWGf@1
+R9
+32
+R10
+!i10b 1
+R11
+Z25 !s90 -reportprogress|300|-work|work|U:/CPRE381/Lab2/MyFirstMipsDataPath/complementer.vhd|
+Z26 !s107 U:/CPRE381/Lab2/MyFirstMipsDataPath/complementer.vhd|
+!i113 0
+R14
+R15
+Astructure
+R5
+R6
+DEx4 work 12 complementer 0 22 ^`0hI2L6cz2bfL_HAUlU;2
+!i122 7
+l21
+L13 17
+VJ?<9aKY<g7EaRhlNFWjbS2
+!s100 I02eh4=hJc@1BmSoH4:W90
+R9
+32
+R10
+!i10b 1
+R11
+R25
+R26
+!i113 0
+R14
+R15
+Efull_adder
+Z27 w1619909159
+R5
+R6
+!i122 8
+R0
+Z28 8U:/CPRE381/Lab2/MyFirstMipsDataPath/full_adder.vhd
+Z29 FU:/CPRE381/Lab2/MyFirstMipsDataPath/full_adder.vhd
+l0
+L4 1
+VZ3HG@9CB__;SaP8X7fGUR0
+!s100 d4FTbT_A8anY4=6:XHPT?0
+R9
+32
+Z30 !s110 1619909372
+!i10b 1
+R11
+Z31 !s90 -reportprogress|300|-work|work|U:/CPRE381/Lab2/MyFirstMipsDataPath/full_adder.vhd|
+Z32 !s107 U:/CPRE381/Lab2/MyFirstMipsDataPath/full_adder.vhd|
+!i113 0
+R14
+R15
+Astructure
+R5
+R6
+DEx4 work 10 full_adder 0 22 Z3HG@9CB__;SaP8X7fGUR0
+!i122 8
+l34
+L12 49
+VCNB^Coaj@h^GcDkdfbPfT2
+!s100 :nS`0<]VV6jUV0@VX9bX^0
+R9
+32
+R30
+!i10b 1
+R11
+R31
+R32
+!i113 0
+R14
+R15
+Einvg
+Z33 w1619909089
+R5
+R6
+!i122 9
+R0
+Z34 8U:/CPRE381/Lab2/MyFirstMipsDataPath/invg.vhd
+Z35 FU:/CPRE381/Lab2/MyFirstMipsDataPath/invg.vhd
+l0
+L4 1
+Vi5m;JcIWW<:YF11X=J[]93
+!s100 cL2]DbI4O78O0A0_D3oFO0
+R9
+32
+R30
+!i10b 1
+Z36 !s108 1619909372.000000
+Z37 !s90 -reportprogress|300|-work|work|U:/CPRE381/Lab2/MyFirstMipsDataPath/invg.vhd|
+Z38 !s107 U:/CPRE381/Lab2/MyFirstMipsDataPath/invg.vhd|
+!i113 0
+R14
+R15
+Adataflow
+R5
+R6
+DEx4 work 4 invg 0 22 i5m;JcIWW<:YF11X=J[]93
+!i122 9
+l12
+L11 6
+VS>SO_eC_FOnHGT:>W=dUV2
+!s100 z>TRmS5Vb@I5me`cGFTM33
+R9
+32
+R30
+!i10b 1
+R36
+R37
+R38
+!i113 0
+R14
+R15
+Emips_proc
+Z39 w1619915732
+R5
+R6
+!i122 15
+R0
+Z40 8U:/CPRE381/Lab2/MyFirstMipsDataPath/mips_proc.vhd
+Z41 FU:/CPRE381/Lab2/MyFirstMipsDataPath/mips_proc.vhd
+l0
+L4 1
+VgLilbb_G_=MIQaGSG9c?e1
+!s100 aU1djaN=nh=kQIESUGLkX2
+R9
+32
+Z42 !s110 1619915814
+!i10b 1
+Z43 !s108 1619915813.000000
+Z44 !s90 -reportprogress|300|-work|work|U:/CPRE381/Lab2/MyFirstMipsDataPath/mips_proc.vhd|
+Z45 !s107 U:/CPRE381/Lab2/MyFirstMipsDataPath/mips_proc.vhd|
+!i113 0
+R14
+R15
+Astructure
+R5
+R6
+DEx4 work 9 mips_proc 0 22 gLilbb_G_=MIQaGSG9c?e1
+!i122 15
+l31
+L12 43
+VOXjQ;W99gg9[jmA=TYJWj0
+!s100 J]IJW<QO8_::H@RQ<Khln1
+R9
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 0
+R14
+R15
+Emux2
+Z46 w1619909285
+R5
+R6
+!i122 10
+R0
+Z47 8U:/CPRE381/Lab2/MyFirstMipsDataPath/mux2.vhd
+Z48 FU:/CPRE381/Lab2/MyFirstMipsDataPath/mux2.vhd
+l0
+L4 1
+V_<Y8aC;S6FYY7UjFL89=i1
+!s100 dSR3CAHB`:gM`eWLTb?aD1
+R9
+32
+R30
+!i10b 1
+R36
+Z49 !s90 -reportprogress|300|-work|work|U:/CPRE381/Lab2/MyFirstMipsDataPath/mux2.vhd|
+Z50 !s107 U:/CPRE381/Lab2/MyFirstMipsDataPath/mux2.vhd|
+!i113 0
+R14
+R15
+Astructure
+R5
+R6
+DEx4 work 4 mux2 0 22 _<Y8aC;S6FYY7UjFL89=i1
+!i122 10
+l32
+L11 43
+VRE_=7eog1kL<PZQ^X5=2M1
+!s100 M2WZhC9^1N[5=jOTgYWnF1
+R9
+32
+R30
+!i10b 1
+R36
+R49
+R50
+!i113 0
+R14
+R15
+En_bit_full_adder
+Z51 w1619908699
+R5
+R6
+!i122 11
+R0
+Z52 8U:/CPRE381/Lab2/MyFirstMipsDataPath/n_bit_full_adder.vhd
+Z53 FU:/CPRE381/Lab2/MyFirstMipsDataPath/n_bit_full_adder.vhd
+l0
+L4 1
+VH26WWc^UFdN>UNLzkG9hR3
+!s100 SMk]8hX0R^R;<o>W6]=bn2
+R9
+32
+R30
+!i10b 1
+R36
+Z54 !s90 -reportprogress|300|-work|work|U:/CPRE381/Lab2/MyFirstMipsDataPath/n_bit_full_adder.vhd|
+Z55 !s107 U:/CPRE381/Lab2/MyFirstMipsDataPath/n_bit_full_adder.vhd|
+!i113 0
+R14
+R15
+Astructure
+R5
+R6
+DEx4 work 16 n_bit_full_adder 0 22 H26WWc^UFdN>UNLzkG9hR3
+!i122 11
+l25
+L13 38
+VYD`;a[6VI;QkjoE=?XV]:0
+!s100 1lk^O<OolRzgN2@F>2H]Z2
+R9
+32
+R30
+!i10b 1
+R36
+R54
+R55
+!i113 0
+R14
+R15
+En_bit_mux2
+Z56 w1619908623
+R5
+R6
+!i122 12
+R0
+Z57 8U:/CPRE381/Lab2/MyFirstMipsDataPath/n_bit_mux2.vhd
+Z58 FU:/CPRE381/Lab2/MyFirstMipsDataPath/n_bit_mux2.vhd
+l0
+L4 1
+VOCMA5W;RB3MicdKAi6PA;3
+!s100 k1zThd8Gb;ie_Dn5CXAO@1
+R9
+32
+R30
+!i10b 1
+R36
+Z59 !s90 -reportprogress|300|-work|work|U:/CPRE381/Lab2/MyFirstMipsDataPath/n_bit_mux2.vhd|
+Z60 !s107 U:/CPRE381/Lab2/MyFirstMipsDataPath/n_bit_mux2.vhd|
+!i113 0
+R14
+R15
+Astructure
+R5
+R6
+DEx4 work 10 n_bit_mux2 0 22 OCMA5W;RB3MicdKAi6PA;3
+!i122 12
+l19
+L12 18
+VZaInJnK<70nGVkzY6NY241
+!s100 Fcbea;URWeYDF3E9amIX30
+R9
+32
+R30
+!i10b 1
+R36
+R59
+R60
+!i113 0
+R14
+R15
+Eorg2
+Z61 w1619909258
+R5
+R6
+!i122 13
+R0
+Z62 8U:/CPRE381/Lab2/MyFirstMipsDataPath/org2.vhd
+Z63 FU:/CPRE381/Lab2/MyFirstMipsDataPath/org2.vhd
+l0
+L6 1
+V<WcZ;Pj3?R<<T=4n7FG3_0
+!s100 4I8z0=Se`W^1zUYATPDGa1
+R9
+32
+Z64 !s110 1619909373
+!i10b 1
+Z65 !s108 1619909373.000000
+Z66 !s90 -reportprogress|300|-work|work|U:/CPRE381/Lab2/MyFirstMipsDataPath/org2.vhd|
+Z67 !s107 U:/CPRE381/Lab2/MyFirstMipsDataPath/org2.vhd|
+!i113 0
+R14
+R15
+Adataflow
+R5
+R6
+DEx4 work 4 org2 0 22 <WcZ;Pj3?R<<T=4n7FG3_0
+!i122 13
+l15
+R21
+VDWMCc<X_3E7gU]efBFm433
+!s100 TC><SBYmh3DgoOLb1^>VB0
+R9
+32
+R64
+!i10b 1
+R65
+R66
+R67
+!i113 0
+R14
+R15
+Exorg2
+Z68 w1619911528
+R5
+R6
+!i122 14
+R0
+Z69 8U:/CPRE381/Lab2/MyFirstMipsDataPath/xorg2.vhd
+Z70 FU:/CPRE381/Lab2/MyFirstMipsDataPath/xorg2.vhd
+l0
+L4 1
+Vh>PChB60XMEnOboQHWL@G1
+!s100 g7^@DKij>@6@MbM_ghb2=1
+R9
+32
+Z71 !s110 1619911614
+!i10b 1
+Z72 !s108 1619911613.000000
+Z73 !s90 -reportprogress|300|-work|work|U:/CPRE381/Lab2/MyFirstMipsDataPath/xorg2.vhd|
+Z74 !s107 U:/CPRE381/Lab2/MyFirstMipsDataPath/xorg2.vhd|
+!i113 0
+R14
+R15
+Adataflow
+R5
+R6
+DEx4 work 5 xorg2 0 22 h>PChB60XMEnOboQHWL@G1
+!i122 14
+l13
+L12 6
+VP]V:FW=8dTk3OUoc084NZ3
+!s100 j<Nh<???:AN]W2`GGc<e70
+R9
+32
+R71
+!i10b 1
+R72
+R73
+R74
+!i113 0
+R14
+R15
